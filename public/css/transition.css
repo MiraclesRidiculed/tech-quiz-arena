@@ -1,0 +1,59 @@
+@font-face {
+    font-family: jetbrainsmonospace;
+    src: url(JetbrainsMono-MediumItalic.ttf);
+}
+
+body {
+    background-image: url(../img/outro.jpg);
+    color: #ffffff;
+    font-family: jetbrainsmonospace;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.title {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.card {
+    width: 70%;
+    padding: 20px;
+    background-color: #333333;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+}
+
+.game-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #d4d3d3;
+    color: #000;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+    text-shadow: 0 0 1px #000;
+}
+
+.game-button:hover {
+    background-color: black;
+    font-weight: bolder;
+    color: #faf9f6;
+    box-shadow: 0 0 5px #d4d3d3, 0 0 10px #d4d3d3;
+
+}

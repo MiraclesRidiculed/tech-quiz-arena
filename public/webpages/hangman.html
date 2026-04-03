@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="../css/godly.css">
+    <script src="../js/api.js" defer></script>
+    <script src="../js/hangman.js" defer></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Hangman</h1>
+        <p>Crack the computer-science word using the letters below.</p>
+    </div>
+
+    <div class="wrapper">
+        <p id="categoryName"></p>
+        <div id="buttons"></div>
+        <div id="hold"></div>
+        <p id="mylives"></p>
+        <p id="clue"></p>
+        <canvas id="stickman" width="180" height="180">
+            This browser does not support the HTML5 canvas element.
+        </canvas>
+        <div class="actions">
+            <button type="button" id="hint">Show Hint</button>
+            <button type="button" id="reset">Reset Round</button>
+        </div>
+    </div>
+</body>
+
+</html>

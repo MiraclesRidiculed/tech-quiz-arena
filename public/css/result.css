@@ -1,0 +1,58 @@
+@font-face {
+    font-family: jetbrainsmono;
+    src: url(JetbrainsMono-MediumItalic.ttf);
+}
+
+body {
+    background-image: url('../img/outro.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-family: jetbrainsmono;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.container {
+    background-color: rgba(34, 34, 34, 0.8);
+    /* Dark background color with opacity */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 400px;
+    /* Container width */
+    max-width: 80%;
+    /* Limit the maximum width to maintain readability */
+    position: relative;
+    z-index: 1;
+}
+
+.stats {
+    align-items: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.instructions {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.thank-you {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
